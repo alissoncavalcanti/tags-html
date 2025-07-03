@@ -32,12 +32,16 @@
             <li><a href="#i">i</a></li>
             <li><a href="#h">h1, h2, h3, h4, h5, h6</a></li>
             <li><a href="#p">p</a></li>
+            <li><a href="#br">br</a></li>
             <li><a href="#blockquote">blockquote</a></li>
             <li><a href="#ul">ul</a></li>
             <li><a href="#ol">ol</a></li>
             <li><a href="#li">li</a></li>
             <li><a href="#a">a</a></li>
             <li><a href="#img">img</a></li>
+            <li><a href="#audio">audio</a></li>
+            <li><a href="#video">video</a></li>
+            <li><a href="#track">track</a></li>
             <li><a href="#form">form</a></li>
             <li><a href="#input">input</a></li>
             <li><a href="#button">button</a></li>
@@ -48,8 +52,35 @@
             <li><a href="#div">div</a></li>
             <li><a href="#span">span</a></li>
             <li><a href="#fieldset">fieldset</a></li>
-            <li><a href="legend">legend</a></li>
-            <li><a></a></li>
+            <li><a href="#legend">legend</a></li>
+            <li><a href="#embed">embed</a></li>
+            <li><a href="#iframe">iframe</a></li>
+            <li><a href="#table">table</a></li>
+            <li><a href="#tr">tr</a></li>
+            <li><a href="#td">td</a></li>
+            <li><a href="#th">th</a></li>
+            <li><a href="#tbody">tbody</a></li>
+            <li><a href="#thead">thead</a></li>
+            <li><a href="#tfoot">tfoot</a></li>
+            <li><a href="#main">main</a></li>
+            <li><a href="#header">header</a></li>
+            <li><a href="#footer">footer</a></li>
+            <li><a href="#aside">aside</a></li>
+            <li><a href="#section">section</a></li>
+            <li><a href="#nav">nav</a></li>
+            <li><a href="#article">article</a></li>
+            <li><a href="#q">q</a></li>
+            <li><a href="#figure">figure</a></li>
+            <li><a href="#figcaption">figcaption</a></li>
+            <li><a href="#picture">picture</a></li>
+            <li><a href="#small">small</a></li>
+            <li><a href="#mark">mark</a></li>
+            <li><a href="#sub">sub</a></li>
+            <li><a href="#sup">sup</a></li>
+            <li><a href="#del">del</a></li>
+            <li><a href="#p">p</a></li>
+            <li><a href="#abbr">abbr</a></li>
+            
         </ul>
         <hr>
         <h2 id="html">
@@ -114,6 +145,12 @@
             A tag <strong>p</strong> abre um parágrafo. É reservada para textos longos e com fonte de tamanho menor que os títulos. Aqui é interessante utilizar recursos como <a href=#a>links</a>, <strong><a href="#strong">negritos</a></strong>, <i><a href="#i">itálicos</a></i> e muito mais. 
         </p>
         <hr>
+        <h2 id="br">br</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p>
+            Esta é uma das tags mais utilizadas em páginas HTML. <strong>br</strong> é basicamente utilizada para fazer quebras de linha e fazer com que o conteúdo a seguir seja exibido na linha de baixo. Tem origem na palavra quebra, do inglês <i>break</i>.
+        </p>
+        <hr>
         <h2 id="blockquote">blockquote</h2>
         <small><a href="#back">Voltar</a></small>
         <p>
@@ -150,6 +187,24 @@
         <small><a href="#back">Voltar</a></small>
         <p>
             Similar à tag <a href="#figure">figure</a>, a tag <strong>img</strong> faz a inserção de uma imagem à página HTML. Ela aceita os atributos <i>src</i>, que traz a origem da image, <i>height</i>, que define a altura e <i>width</i>, que define a largura. Apenas informar um dos valores faz com que a imagem seja redimensionada proporcionalmente.
+        </p>
+        <hr>
+        <h2 id="audio">audio</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p>
+            Utilizada especificamente para exibir conteúdos de áudio em páginas HTML, a tag <strong>audio</strong> possui atributos como <i>autoplay</i>, que decide se a áudio vai ser iniciado automaticamente com a abertura da página, e <i>controls</i>, que decide se os controles de play, audio ou download vão ser exibidos para o visitante do site.
+        </p>
+        <hr>
+        <h2 id="video">video</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p>
+            De forma semelhante, à tag <a href="#audio">audio</a>, a tag <strong>video</strong> insere conteúdo multimídia numa página HTML, desta vez em formato de vídeo. Também é preferencial em detrimento da tag <a href="#embed">embed</a> por ter maior valor semântico. Alguns de seus atributos são <i>source</i>, <i>loop</i> e <i>autoplay</i>.
+        </p>
+        <hr>
+        <h2 id="track">track</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p>
+            <strong>track</strong> é uma tag específica para a adição de legendas para vídeos ou áudios, com opção de inserir arquivos de mais de uma língua para serem selecionados.
         </p>
         <hr>
         <h2 id="form">form</h2>
@@ -206,6 +261,136 @@
             A tag <strong>span</strong> tem comportamento semelhante à da <a href="#div">div</a>, mas enquanto aquela apresenta o atributo <i>display</i> como <i>block</i>, esta apresenta como <i>inline</i> e permite ocupar apenas a largura do seu conteúdo.
         </p>
         <hr>
+        <h2 id="fieldset">fieldset</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p>
+            <strong>fieldset</strong> é a tag que agrupa campos em um formulário. Ela pode ser utilizada para separar questões sobre dados pessoais das questões socioeconômicas num questionário sobre alunos, por exemplo. É utilizada em conjunto com a tag <a href="#legend">legend</a>, que cria legendas para nomear os agrupamentos feitos pela <strong>fieldset</strong>.
+        </p>
+        <hr>
+        <h2 id="legend">legend</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p>
+            Utilizada dentro de um <a href="#fieldset">fieldset</a>, a tag <strong>legend</strong> cria um rótulo superior para nomear esses blocos de informações.
+        </p>
+        <hr>
+        <h2 id="embed">embed</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p>
+            A tag <strong>embed</strong> é utilizada para trazer um conteúdo externo para nosso site. Pode ser uma página HTML, um vídeo ou uma imagem. Porém, tem menor valor semântico que outras tags, como a <a href="#img">img</a>, <a href="#video">video</a> ou <a href="#iframe">iframe</a>, por isso não é mais recomendada.
+        </p>
+        <hr>
+        <h2 id="iframe">iframe</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p>
+            <strong>iframe</strong> é uma tag utilizada para trazer conteúdos externos para nosso site, tais como vídeos do <a href="https://www.youtube.com">Youtube</a> ou <a href="https://maps.google.com">Google Maps</a>. Em nosso código, o conteúdo pode até mesmo se comportar como se houvesse outra tag <a href="#html">HTML</a> dentro da tag <strong>embed</strong>.
+        </p>
+        <hr>
+        <h2 id="table">table</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="tr">tr</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="td">td</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="th">th</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="tbody">tbody</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="thead">thead</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="tfoot">tfoot</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="main">main</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="header">header</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="footer">footer</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="aside">aside</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="section">section</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="nav">nav</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="article">article</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="q">q</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="figure">figure</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="figcaption">figcaption</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="picture">picture</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="small">small</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="mark">mark</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="sub">sub</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="sup">sup</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="del">del</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="p">p</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
+        <h2 id="abbr">abbr</h2>
+        <small><a href="#back">Voltar</a></small>
+        <p></p>
+        <hr>
     </main>
+    <footer>
+        <h1>Referências</h1>
+        <p>
+            O site <a href="https://www.w3schools.com/">W3Schools</a> foi utilizado como referência para a maioria das tags citadas nesta página.
+        </p>
+    </footer>
 </body>
 </html>
